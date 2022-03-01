@@ -56,6 +56,10 @@ On any other platform, you can install kzenv as follows:
   For Zsh :
   ```console
   echo 'export PATH="${HOME}/.kzenv/bin:$PATH"' >> ${HOME}/.zprofile
+  
+  or
+  
+  echo 'export PATH="${HOME}/.kzenv/bin:$PATH"' >> ${HOME}/.zshrc
   ```
 
   OR you can make symlinks for `kzenv/bin/*` scripts into a path that is already added to your `$PATH` (e.g. `/usr/local/bin`) `OSX/Linux Only!`
